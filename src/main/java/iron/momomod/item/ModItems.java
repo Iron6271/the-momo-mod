@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item MOMO = registerItem("momo",
             new Item(new FabricItemSettings()));
-    public static final Item STEEL_INGOT = registerItem("steel_ingot",
+    public static final Item MODERNIUM_INGOT = registerItem("modernium_ingot",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
@@ -21,7 +21,7 @@ public class ModItems {
     }
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, MOMO);
-        addToItemGroup(ItemGroups.INGREDIENTS, STEEL_INGOT);
+        addToItemGroup(ItemGroups.INGREDIENTS, MODERNIUM_INGOT);
     }
     private static void addToItemGroup(ItemGroup group, Item item ) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
