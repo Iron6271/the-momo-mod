@@ -12,12 +12,16 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item MOMO = registerItem("momo",
             new Item(new FabricItemSettings()));
+    public static final Item STEEL_INGOT = registerItem("steel_ingot",
+            new Item(new FabricItemSettings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MomoMod.MOD_ID, name), item);
 
     }
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.FOOD_AND_DRINK, MOMO);
+        addToItemGroup(ItemGroups.INGREDIENTS, STEEL_INGOT);
     }
     private static void addToItemGroup(ItemGroup group, Item item ) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
