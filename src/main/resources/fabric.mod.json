@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "momo-mod",
+	"version": "${version}",
+	"name": "Momo Mod",
+	"description": "Adds momo stuff to the game!",
+	"authors": [
+		"Iron627/sixify"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/momo-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"iron.momomod.MomoMod"
+		],
+		"client": [
+			"iron.momomod.MomoModClient"
+		],
+		"fabric-datagen": [
+			"iron.momomod.MomoModDataGenerator"
+		]
+	},
+	"mixins": [
+		"momo-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
