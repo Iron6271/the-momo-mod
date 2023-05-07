@@ -1,5 +1,6 @@
 package iron.momomod;
 
+import iron.momomod.block.ModBlocks;
 import iron.momomod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,7 @@ public class MomoMod implements ModInitializer {
     public void onInitialize() {
 
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
         LOGGER.info("Hello Fabric world!");
     }
 }

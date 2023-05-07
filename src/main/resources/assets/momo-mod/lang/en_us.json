@@ -1,4 +1,5 @@
 {
   "item.momo-mod.momo" : "Momo",
-  "item.momo-mod.steel_ingot": "Modernium Ingot"
+  "item.momo-mod.steel_ingot": "Modernium Ingot",
+  "block.momo-mod.modernium_block": "Block of Modernium"
 }
