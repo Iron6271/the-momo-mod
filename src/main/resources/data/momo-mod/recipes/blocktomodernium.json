@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "momo-mod:modernium_block"
+    }
+  ],
+  "result": {
+    "item": "momo-mod:modernium_ingot",
+    "count": 9
+  }
+}
