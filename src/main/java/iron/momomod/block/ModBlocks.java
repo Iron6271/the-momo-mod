@@ -18,6 +18,8 @@ public class ModBlocks {
 
     public static final Block MODERNIUM_BLOCK = registerBlock("modernium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block MODERNIUM_ORE = registerBlock("deepslate_modernium_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ItemGroups.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);

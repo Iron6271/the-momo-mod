@@ -1,5 +1,7 @@
 {
   "item.momo-mod.momo" : "Momo",
-  "item.momo-mod.steel_ingot": "Modernium Ingot",
-  "block.momo-mod.modernium_block": "Block of Modernium"
+  "item.momo-mod.modernium_ingot": "Modernium Ingot",
+  "block.momo-mod.modernium_block": "Block of Modernium",
+  "item.momo-mod.raw_modernium": "Raw Modernium",
+  "block.momo-mod.deepslate_modernium_ore": "Deepslate Modernium Ore"
 }
