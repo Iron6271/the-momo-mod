@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "momo-mod:raw_modernium"
-  },
-  "result": "momo-mod:modernium_ingot",
-  "experience": 0.7,
-  "cookingtime": 100
-}
